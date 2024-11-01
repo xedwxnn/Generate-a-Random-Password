@@ -13,18 +13,19 @@ body {
 }
 
 h2 {
-    color: white
+    color: white;
+    user-select: none;
 }
 
 #random-password-text {
     color: rgb(22, 172, 30);
     text-decoration: underline;
     margin-top: -5px;
+    user-select: none;
 }
 
 #generator-container {
     margin-left: 70px;
-    user-select: none;
 }
 
 input {
@@ -36,7 +37,6 @@ input {
     width: 330px;
     height: 50px;
     border-radius: 5px;
-    cursor: default;
 }
 
 button {
@@ -50,6 +50,7 @@ button {
     font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
+    user-select: none;
 }
 
 #leaf-icon {

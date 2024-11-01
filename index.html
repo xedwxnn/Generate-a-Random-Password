@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Password</title>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
-    <script src="/script/main.js"></script>
+    <script src="/script/main.js" defer></script>
     <link rel="stylesheet" href="/css/style.css">
     <link rel="icon" href="/assets/icon/lighting-icon.png">
 </head>
@@ -17,10 +17,9 @@
 
         <div id="password-container">
             <input type="text" placeholder="Password" id="password-box" readonly>
-            <box-icon name='copy' color='#16ac1e' id="copy-btn" onclick="copyText()"></box-icon>
         </div>
 
-        <button><box-icon name='leaf' color='#ffffff' id="leaf-icon"></box-icon>Generate</button>
+        <button onclick="createRandomPassword()"><box-icon name='leaf' color='#ffffff' id="leaf-icon"></box-icon>Generate</button>
     </div>
 </body>
 </html>
