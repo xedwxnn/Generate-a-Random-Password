@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    background-color: rgb(21, 25, 85);
+}
+
+h2 {
+    color: white
+}
+
+#random-password-text {
+    color: rgb(22, 172, 30);
+    text-decoration: underline;
+    margin-top: -5px;
+}
+
+#generator-container {
+    margin-left: 70px;
+    user-select: none;
+}
+
+input {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border: none;
+    outline: none;
+    padding-left: 8px;
+    width: 330px;
+    height: 50px;
+    border-radius: 5px;
+    cursor: default;
+}
+
+button {
+    border: none;
+    display: flex;
+    align-items: center;
+    color: white;
+    width: 180px;
+    height: 50px;
+    background-color: rgb(22, 172, 30);
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#leaf-icon {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#copy-btn {
+    margin-left: -38px;
+    width: 30px;
+    height: 30px;
+}
+
+#copy-btn:hover {
+    cursor: pointer;
+}
+
+#password-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
